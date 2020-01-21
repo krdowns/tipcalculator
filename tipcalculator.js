@@ -1,7 +1,7 @@
 function calculateTip() {
-  const billAmount = document.getElementById("billAmount").value;
-  const serviceRating = document.getElementById("serviceRating").value;
-  const splitTip = document.getElementById("splitTip").value;
+  let billAmount = document.getElementById("billAmount").value;
+  let serviceRating = document.getElementById("serviceRating").value;
+  let splitTip = document.getElementById("splitTip").value;
 
   if (billAmount === "" || serviceRating === 0) {
     alert("Please complete form");
